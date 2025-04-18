@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cource selection <form action=""></form></title>
+</head>
+<body>
+    <center>
+    <form action="" method="post"> 
+        <h1>Cource Selection Form</h1>
+        <br><br>
+        <b><table>
+            <tr>
+                <td>Full name</td>
+                <td><input type="text" name="S_name" required placeholder="Enter your name" class="brs"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="Email" id="" required placeholder="Enter your email" class="brs"></td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td><input type="tel" name="mobile" id="" placeholder="Enter your mobile no." class="brs"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date" name="Date" id="" class="brs"></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="number" name="Number" min="18" max="50" class="brs"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="Gender" value="m">Male
+                    <input type="radio" name="Gender" value="f">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Course selection</td>
+                <td>
+                    <select id="course" name="course" required>
+                        <option value="">--Please choose an option--</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="data-science">Data Science</option>
+                        <option value="ai">Artificial Intelligence</option>
+                        <option value="cyber-security">Cyber Security</option>
+                        <option value="FSP">Full Stack in Python</option>
+                        <option value="FSJ">Full Stack in Java</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Prefered location</td>
+                <td>
+                    <select name="location">
+                        <option>select</option>
+                        <option value="AD">Anadhri</option>
+                        <option value="TH">Thane</option>
+                        <option value="V">Vashi</option>
+                        <option value="DD">Dadar</option>
+                        <option value="BO">Boriwali</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="Address" ></textarea>
+                </td>
+            </tr>
+            <tr>
+                 <td><button type="submit">Submit</button></td>
+            </tr>
+        </table>
+        </b>
+    </form>
+    </center>
+</body>
+</html>
