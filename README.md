@@ -2,11 +2,11 @@
 
 This repository contains a simple HTML form for selecting courses, intended for educational or institutional use. It collects user details and their course preferences through a clean and user-friendly interface.
 
-## 📄 File Included
+##  File Included
 
 - `Course_selection_form.html` – The main HTML file for the course selection form.
 
-## 🧾 Features
+##  Features
 
 - Input fields for:
   - Full Name
@@ -21,11 +21,11 @@ This repository contains a simple HTML form for selecting courses, intended for 
 - Form validation using `required`, `type`, and input constraints.
 - Responsive layout using HTML and `<center>` tag (note: not ideal for modern responsive design).
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - HTML5
 
-## 🚀 How to Use
+##  How to Use
 
 1. Clone the repository:
 
